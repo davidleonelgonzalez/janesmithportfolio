@@ -11,6 +11,10 @@ header {
     text-align: center; /* Center align the content within the header */
 }
 
+header h1 {
+    margin: 0; /* Remove default margin to ensure accurate centering */
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -25,3 +29,5 @@ nav a {
 .section {
     padding: 2rem;
 }
+
+/* Add more styles as needed */
